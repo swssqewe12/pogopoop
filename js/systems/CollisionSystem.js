@@ -56,10 +56,6 @@ CollisionSystem.prototype.areEntitiesColliding = function(one, two)
 	var apos = awo.position;
 	var bpos = bwo.position;
 
-	console.log(two.name, two.getPosition())
-
-	//console.log(bwo.mode,bpos)
-
 	if (a.r && b.r)
 	{
 		//two circles
@@ -77,7 +73,6 @@ CollisionSystem.prototype.areEntitiesColliding = function(one, two)
 		return this.isCircleCollidingWithRect(a, b, apos, bpos);
 	}
 
-	//console.log("Error! Invalid collision boxes.")
 	return false;
 }
 

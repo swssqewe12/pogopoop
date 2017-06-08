@@ -11,7 +11,6 @@ Camera.prototype.update = function()
 	this.realSize = new Vector(this.canvas.width, this.canvas.height);
 	this.realOffset = this.offset["/"](this.virtualSize)["*"](this.realSize);
 	this.canvas.style.backgroundPositionY = -(this.offset.y + 800) / 10 + "px";
-	console.log("cp", this.offset);
 }
 
 Camera.prototype.realPosition = function(vector)

@@ -35,7 +35,6 @@ PhysicsSystem.prototype.updateEntity = function(entity, dt)
 	{
 		if (collision.getComponent("CollisionBox").solid)
 		{
-			//console.log("SOLID COLLISION!")
 			cancelGravity = true;
 			break;
 		}

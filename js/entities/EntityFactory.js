@@ -87,7 +87,6 @@ EntityFactory.prototype.createWall = function(direction)
 		}]
 
 	});
-	//console.log("tigilchuders...",entity.getComponent("Tags")) //_
 	return entity;
 }
 

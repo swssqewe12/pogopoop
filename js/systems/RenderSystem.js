@@ -47,9 +47,6 @@ RenderSystem.prototype.renderSprite = function(entity, sprite)
 		this.ctx.drawImage(img, 0, 0, size.x, size.y);
 
 	this.ctx.restore();
-
-	if (entity.name == "Player")
-		console.log("ptp", pos.x + spr_pos.x, pos.y + spr_pos.y);
 }
 
 RenderSystem.prototype.clearCanvas = function()

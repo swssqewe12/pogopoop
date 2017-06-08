@@ -21,7 +21,6 @@ ScriptSystem.prototype.update = function(dt)
 	{
 		for (var script of entity.getComponent("Scripts"))
 		{
-			//console.log("ADWasd")
 			if (script.update !== undefined)	script.update(dt);
 		}
 	}
