@@ -1,0 +1,3 @@
+window[script_name] is not a constructor:
+	- Check that the script has been loaded in index.html and that it has been loaded correctly in the browser
+	- Check if the naming of the script & file is matching the name of the script associated with the entity
